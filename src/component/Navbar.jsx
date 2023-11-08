@@ -11,26 +11,6 @@ const Navbar = () => {
             <NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/service" >Service</NavLink>
             <NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/about" >About</NavLink>
             <NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/contact" >Contact</NavLink>
-            {/* <ul>
-                <li>
-                    <NavLink to="/" >Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/blog" >My Blog</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/project" >All Projects</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/service" >My Service</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/about" >About Me</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/contact" >Contact Me</NavLink>
-                </li>
-            </ul> */}
         </nav>
     );
 };
